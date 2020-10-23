@@ -1,0 +1,141 @@
+.balcone {
+  background-image: url("../img/balcone-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.balcone__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 98px;
+}
+
+.balcone__content {
+  max-width: 501px;
+}
+
+.balcone__heading {
+  font-size: 26px;
+  margin-top: 0;
+  margin-bottom: 135px;
+}
+
+.balcone__heading-span {
+  font-size: 55px;
+}
+
+.balcone__features {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.balcone__feature {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding: 50px 18px 25px;
+  width: 110px;
+  height: 110px;
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #ffffff;
+  background-color: #0d8fe3;
+  border-radius: 50%;
+}
+
+.balcone__feature::before {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  content: "";
+}
+
+.balcone__feature:nth-child(1)::before {
+  top: -20px;
+  width: 48px;
+  height: 58px;
+  background-image: url("../img/quality.png");
+}
+
+.balcone__feature:nth-child(2)::before {
+  left: 45%;
+  top: -20px;
+  width: 50px;
+  height: 58px;
+  background-image: url("../img/time.png");
+}
+
+.balcone__feature:nth-child(3)::before {
+  top: -10px;
+  width: 41px;
+  height: 42px;
+  background-image: url("../img/calendar.png");
+}
+
+.balcone__feature:nth-child(4)::before {
+  top: -7px;
+  width: 48px;
+  height: 40px;
+  background-image: url("../img/truck.png");
+}
+
+.balcone__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 370px;
+  padding: 40px 55px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.balcone__form-heading {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 39px;
+}
+
+.balcone__form-heading-span {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.balcone__form-input {
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+  padding: 23px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #999999;
+  font-size: 15px;
+}
+
+.balcone__form-input::placeholder {
+  color: #999999;
+}
+
+.balcone__form-confidentiality {
+  font-size: 11px;
+  font-weight: 300;
+  color: #666666;
+  text-align: center;
+}
