@@ -1,0 +1,143 @@
+.irvas-header {
+  background-color: #fff;
+}
+
+.irvas-header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.irvas-header__logo-info {
+  max-width: 387px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.irvas-header__logo {
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.irvas-header__logo-img {
+  display: block;
+  width: 142px;
+  height: 42px;
+}
+
+.irvas-header__info {
+  max-width: 220px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0096dc;
+}
+
+.irvas-header__measurer {
+  max-width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-wrap: break-word;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 700;
+  padding: 13px 15px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 2px solid #55a831;
+  text-decoration: none;
+  color: #55a831;
+}
+
+.irvas-header__measurer::before {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/pen-measure.png");
+  margin-right: 10px;
+  flex-shrink: 0;
+  content: "";
+}
+
+.irvas-header__open-phone {
+  max-width: 447px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.irvas-header__open {
+  max-width: 146px;
+  display: flex;
+  align-items: center;
+}
+
+.irvas-header__open::before {
+  display: block;
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/clock.png");
+  margin-right: 18px;
+  content: "";
+}
+
+.irvas-header__open-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.irvas-header__open-day {
+  font-size: 14px;
+}
+
+.irvas-header__open-time {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.irvas-header__phone {
+  position: relative;
+  z-index: 1;
+  max-width: 231px;
+  display: flex;
+}
+
+.irvas-header__phone::before {
+  display: block;
+  position: absolute;
+  left: -33px;
+  top: 8px;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/phone.png");
+  content: "";
+}
+
+.irvas-header__phone-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.irvas-header__phone-link {
+  font-size: 23px;
+  font-weight: 700;
+  color: #333333;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.irvas-header__phone-callback {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: #0089cc;
+  font-size: 15px;
+}
