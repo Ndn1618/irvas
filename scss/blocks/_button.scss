@@ -1,0 +1,17 @@
+.button {
+  max-width: 270px;
+  width: 100%;
+  padding: 30px;
+  background-color: #ffc600;
+  border: 1px solid #ffc600;
+  box-shadow: 0 2px 20px rgba(255, 153, 0, 0.4);
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #ffed26 0%, #ffb400 100%);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
