@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+  <h1 class="visually-hidden">Take high quality mirrors from Irvas!</h1>
   <header class="irvas-header">
     <div class="container irvas-header__container">
       <div class="irvas-header__logo-info">
@@ -15,7 +16,7 @@
         </a>
         <span class="irvas-header__info">Остекление балконов и лоджий в Москве и Московской области</span>
       </div>
-      <a href="tel:+7(495)646-61-71" class="irvas-header__measurer">ВЫЗВАТЬ ЗАМЕРЩИКА</a>
+      <a href="#callback" class="irvas-header__measurer">ВЫЗВАТЬ ЗАМЕРЩИКА</a>
       <div class="irvas-header__open-phone">
         <div class="irvas-header__open">
           <div class="irvas-header__open-wrapper">
@@ -32,6 +33,33 @@
       </div>
     </div>
   </header>
+
+  <main class="irvas-main">
+    <section class="balcone">
+      <div class="container balcone__container">
+        <div class="balcone__content">
+          <h2 class="balcone__heading">Остекление балконов "под ключ"
+            <span class="balcone__heading-span">за  12 800 рублей!</span>
+          </h2>
+          <ul class="balcone__features">
+            <li class="balcone__feature">Высокое качество</li>
+            <li class="balcone__feature">Быстрый монтаж</li>
+            <li class="balcone__feature">Гарантия 3 года</li>
+            <li class="balcone__feature">Вывоз мусора</li>
+          </ul>
+        </div>
+        <form  class="balcone__form" id="#callback" action="https://echo.htmlacademy.ru" method="GET">
+          <h3 class="balcone__from-heading">Запишитесь сегодня на
+            <span class="balcone__from-heading-span">БЕСПЛАТНЫЙ ЗАМЕР</span>
+          </h3>
+          <input class="balcone__from-input" placeholder="Введите ваше имя" type="text" name="name" aria-label="name-input" required>
+          <input class="balcone__from-input" placeholder="+7 (___) ___-__-__" type="tel" name="phone" aria-label="phone-input" required>
+          <button class="button irvas__form-button" type="submit">Вызвать замерщика!</button>
+          <span class="balcone__from-confidentiality">Ваши данные конфиденциальны</span>
+        </form>
+      </div>
+    </section>
+  </main>
 
   <script src="js/main.js"></script>
 </body>

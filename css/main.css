@@ -629,4 +629,11 @@ img {
   color: #0089cc;
   font-size: 15px;
 }
+
+.irvas-main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: #fff;
+}
 /*# sourceMappingURL=main.css.map */
