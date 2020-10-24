@@ -953,4 +953,146 @@ img {
   color: #464646;
   text-decoration: none;
 }
+
+.glazing__information-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.glazing__information-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.glazing__information-cool {
+  border-top: 5px solid #0d8fe3;
+  border-radius: 5px 0 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(13, 143, 227, 0.1)), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to bottom, rgba(13, 143, 227, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.glazing__information-cool::before {
+  border-top: 8px solid #0d8fe3;
+}
+
+.glazing__information-warm {
+  border-top: 5px solid #ffb903;
+  border-radius: 0 5px 0 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 185, 3, 0.1)), color-stop(1%, rgba(255, 185, 3, 0.1)), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to bottom, rgba(255, 185, 3, 0.1) 0%, rgba(255, 185, 3, 0.1) 1%, rgba(255, 255, 255, 0) 100%);
+}
+
+.glazing__information-warm::before {
+  border-top: 8px solid #ffb903;
+}
+
+.glazing__information-cool-heading {
+  color: #0d8fe3;
+}
+
+.glazing__information-warm-heading {
+  color: #ffb903;
+}
+
+.glazing-information {
+  position: relative;
+  z-index: 1;
+  padding: 35px 59px 48px;
+}
+
+.glazing-information::before {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  content: "";
+}
+
+.glazing-information__heading {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 29px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.glazing-information__img {
+  display: block;
+  width: 466px;
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+.glazing-information__features {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  padding-bottom: 43px;
+}
+
+.glazing-information__feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.glazing-information__feature:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.glazing-information__feature::before {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #e8e8e8;
+  background-image: url("../img/checked.png");
+  background-size: 10px 7px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-right: 17px;
+  content: "";
+}
+
+.glazing-information__price-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.glazing-information__price {
+  max-width: 157px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.glazing-information__price-span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.glazing-information__button {
+  padding: 22px 35px;
+  font-size: 17px;
+  letter-spacing: -1.5px;
+}
 /*# sourceMappingURL=main.css.map */
