@@ -1,0 +1,90 @@
+.glazing__container {
+  padding-top: 79px;
+  padding-bottom: 103px;
+}
+
+.glazing__heading {
+  position: relative;
+  z-index: 1;
+  margin-top: 0;
+  margin-bottom: 105px;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.glazing__heading::after {
+  position: absolute;
+  z-index: 1;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  width: 170px;
+  height: 2px;
+  background-image: url("../img/line.png");
+  content: "";
+}
+
+.glazing__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding-bottom: 39px;
+}
+
+.glazing__item {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  text-align: center;
+}
+
+.glazing__item::before {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin-bottom: 30px;
+  content: "";
+}
+
+.glazing__item:nth-child(1)::before {
+  background-image: url("../img/design-first.jpg");
+}
+
+.glazing__item:nth-child(2)::before {
+  background-image: url("../img/design-second.jpg");
+}
+
+.glazing__item:nth-child(3)::before {
+  background-image: url("../img/design-third.jpg");
+}
+
+.glazing__item:nth-child(4)::before {
+  background-image: url("../img/design-fourth.jpg");
+}
+
+.glazing__item:nth-child(5)::before {
+  background-image: url("../img/design-fifth.jpg");
+}
+
+.glazing__item-heading {
+  margin: 0;
+  font-weight: 600;
+}
+
+.glazing__item-link {
+  font-size: 18px;
+  line-height: 26px;
+  color: #249ae6;
+}
+
+.glazing__item--active .glazing__item-link {
+  color: #464646;
+  text-decoration: none;
+}
