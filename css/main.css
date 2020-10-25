@@ -1577,4 +1577,122 @@ img {
 .paying__item:nth-child(3)::before {
   background-image: url("../img/museum.png");
 }
+
+.share {
+  background-image: url("../img/man-with-tool-belt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.share__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 79px;
+  padding-bottom: 79px;
+}
+
+.share__heading {
+  font-size: 48px;
+  line-height: 48px;
+  color: #008cce;
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+
+.share__information {
+  max-width: 398px;
+  font-size: 24px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+
+.share__counter {
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+  padding: 20px 24px 24px;
+}
+
+.share__counter-text {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.share__counter-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.share__counter-inner-time-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 600;
+}
+
+.share__counter-inner-time-text:not(:last-child) {
+  margin-right: 17px;
+}
+
+.share__counter-inner-time {
+  position: relative;
+  z-index: 1;
+  width: 40px;
+  padding: 14px 0;
+  text-align: center;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  border: none;
+  background-color: #000000;
+  color: #efefef;
+  font-size: 28px;
+}
+
+.share__counter-inner-time::before {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 49%;
+  border-radius: 10px 10px 0 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#393939), to(#141414));
+  background-image: linear-gradient(to bottom, #393939 0%, #141414 100%);
+  content: "";
+}
+
+.share__counter-inner-time::after {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 49%;
+  border-radius: 0 0 10px 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#393939), to(#141414));
+  background-image: linear-gradient(to bottom, #393939 0%, #141414 100%);
+  content: "";
+}
+
+.share__counter-inner-text {
+  color: #000000;
+  font-size: 13px;
+}
 /*# sourceMappingURL=main.css.map */
