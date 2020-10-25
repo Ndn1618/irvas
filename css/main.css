@@ -1408,4 +1408,109 @@ img {
   width: 270px;
   height: 270px;
 }
+
+.guarantee {
+  background-color: #0a8ac9;
+  background-image: url("../img/blue_bgc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.guarantee__container {
+  color: #ffffff;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.guarantee__heading {
+  position: relative;
+  z-index: 1;
+  font-size: 30px;
+  line-height: 48px;
+  margin-top: 0;
+  margin-bottom: 111px;
+  text-transform: uppercase;
+}
+
+.guarantee__heading::after {
+  position: absolute;
+  z-index: 1;
+  bottom: -31px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: inline-block;
+  width: 170px;
+  height: 2px;
+  background-image: url("../img/white-line.png");
+  content: "";
+}
+
+.guarantee__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.guarantee__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 380px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 79px;
+  font-size: 18px;
+}
+
+.guarantee__item::before {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin-bottom: 30px;
+  content: "";
+}
+
+.guarantee__item:nth-child(1)::before {
+  background-image: url("../img/medal.png");
+}
+
+.guarantee__item:nth-child(2)::before {
+  background-image: url("../img/list.png");
+}
+
+.guarantee__item:nth-child(3)::before {
+  background-image: url("../img/alarm-clock.png");
+}
+
+.guarantee__item:nth-child(4)::before {
+  background-image: url("../img/piggy-bank.png");
+}
+
+.guarantee__item:nth-child(5)::before {
+  background-image: url("../img/design-tool.png");
+}
+
+.guarantee__item:nth-child(6)::before {
+  background-image: url("../img/donation.png");
+}
 /*# sourceMappingURL=main.css.map */
