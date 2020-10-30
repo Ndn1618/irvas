@@ -1750,6 +1750,7 @@ img {
   display: block;
   width: 569px;
   height: 467px;
+  text-decoration: none;
 }
 
 .location__link-img {
@@ -1826,5 +1827,70 @@ img {
 
 .any-questions__link {
   color: #ffffff;
+}
+
+.irvas-footer {
+  background-color: #fff;
+}
+
+.irvas-footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.irvas-footer__copyright-work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #000000;
+  font-size: 15px;
+}
+
+.irvas-footer__logo {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  text-decoration: none;
+}
+
+.irvas-footer__logo-img {
+  display: block;
+  width: 142px;
+  height: 42px;
+}
+
+.irvas-footer__phone-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: right;
+}
+
+.irvas-footer__phone {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 3px;
+}
+
+.irvas-footer__email {
+  color: #0090d5;
 }
 /*# sourceMappingURL=main.css.map */

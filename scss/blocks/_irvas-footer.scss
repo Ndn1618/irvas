@@ -1,0 +1,47 @@
+.irvas-footer {
+  background-color: #fff;
+}
+
+.irvas-footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.irvas-footer__copyright-work {
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+  font-size: 15px;
+}
+
+.irvas-footer__logo {
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.irvas-footer__logo-img {
+  display: block;
+  width: 142px;
+  height: 42px;
+}
+
+.irvas-footer__phone-email {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.irvas-footer__phone {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 3px;
+}
+
+.irvas-footer__email {
+  color: #0090d5;
+}
