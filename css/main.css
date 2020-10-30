@@ -1525,7 +1525,7 @@ img {
   line-height: 48px;
   margin-top: 0;
   margin-bottom: 79px;
-  text-transform: uppercase;
+  text-align: center;
 }
 
 .paying__list {
@@ -1694,5 +1694,104 @@ img {
 .share__counter-inner-text {
   color: #000000;
   font-size: 13px;
+}
+
+.location {
+  background-color: #ffffff;
+}
+
+.location__container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.location__heading {
+  position: relative;
+  z-index: 1;
+  font-size: 30px;
+  line-height: 48px;
+  margin-top: 0;
+  margin-bottom: 111px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.location__heading::after {
+  position: absolute;
+  z-index: 1;
+  bottom: -31px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: inline-block;
+  width: 170px;
+  height: 2px;
+  background-image: url("../img/line.png");
+  content: "";
+}
+
+.location__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.location__link {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: block;
+  width: 569px;
+  height: 467px;
+}
+
+.location__link-img {
+  display: block;
+  width: 569px;
+  height: 467px;
+}
+
+.location__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  max-width: 433px;
+}
+
+.location__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.location__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.location__item-info {
+  margin-top: 0;
+  margin-bottom: 9px;
+  font-size: 15px;
+  color: #008cce;
+}
+
+.location__item-link,
+.location__item-text {
+  margin: 0;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
 }
 /*# sourceMappingURL=main.css.map */
